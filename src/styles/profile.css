@@ -1,0 +1,69 @@
+body {
+    background-image: url('../images/profil-background.jpg');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    min-height: 130vh;
+}
+
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.user-profile-container {
+    text-align: center;
+    margin: 4rem auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.welcome-text {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
+}
+
+.welcome-subtext {
+    font-family: "Tangerine", cursive;
+    font-size: 2rem !important;
+    color: #555;
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+.user-info p {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0.3rem 0;
+    color: #333;
+}
+
+.label-bold {
+    font-weight: bold;
+    margin-right: 0.3rem;
+}
+
+.logout-btn {
+    margin-top: 2rem;
+    padding: 0.6rem 2rem;
+    background-color: #47754c;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Poiret One", sans-serif;
+}
+
+.logout-btn:hover {
+    background-color: #0b3d0b;
+}

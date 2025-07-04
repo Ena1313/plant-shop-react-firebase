@@ -1,0 +1,108 @@
+.wrapper {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.imageSection {
+    flex: 1;
+    background-image: url("../images/login-register.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.formSection {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.formContent {
+    max-width: 450px;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.appTitle {
+    font-family: "Tangerine", cursive;
+    font-weight: 1000;
+    font-size: 7rem;
+    color: #47754c;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.loginTitle {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.loginSubtitle {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 2rem;
+}
+
+.loginForm {
+    width: 100%;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #444;
+    text-align: left;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: #47754c;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    background-color: #0b3d0b !important;
+}
+
+.register {
+    text-align: left;
+    font-size: 0.9rem;
+    color: #7f7d7d;
+    margin-top: 1rem;
+}
+
+.register a {
+    color: #47754c;
+    text-decoration: none;
+}
+
+.register a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #0b3d0b;
+}

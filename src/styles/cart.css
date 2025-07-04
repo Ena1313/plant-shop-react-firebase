@@ -1,0 +1,94 @@
+.cart-empty {
+    font-family: "Poiret One", sans-serif;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.cart-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.cart-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-family: "Poiret One", sans-serif;
+    text-align: left;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+    font-family: "Poiret One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cart-item-name {
+    font-size: 1.5rem;
+    color: #2e5033;
+    font-weight: 600;
+}
+
+.cart-item-price {
+    font-size: 1.2rem;
+    margin-top: 0.3rem;
+}
+
+.cart-remove-btn {
+    font-size: 0.9rem;
+    height: 40px;
+    align-self: center;
+}
+
+.cart-remove-btn:hover {
+    background-color: #bb2d3b !important;
+}
+
+.cart-total {
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: "Poiret One", sans-serif;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.cart-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.cart-empty {
+    font-family: "Poiret One", sans-serif;
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 1.7rem;
+    color: #2e5033;
+    font-weight: bold;
+}

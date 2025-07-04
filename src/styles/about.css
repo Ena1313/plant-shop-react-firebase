@@ -1,0 +1,28 @@
+.about-container {
+    display: flex;
+    justify-content: flex-end;
+    /* Gura sadržaj skroz desno */
+    padding: 8rem 14rem;
+}
+
+.about-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-title {
+    font-family: "Tangerine", cursive;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #2e2e2e;
+    margin-bottom: 1rem;
+    text-align: left;
+    /* Naslov skroz desno */
+}
+
+.about-text {
+    font-family: "Tangerine", cursive;
+    font-size: 1.8rem;
+    color: #444;
+    text-align: left;
+}

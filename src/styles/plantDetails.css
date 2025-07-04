@@ -1,0 +1,95 @@
+.plant-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .plant-details-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.plant-image-wrapper {
+    flex: 1;
+}
+
+.plant-details-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.plant-info {
+    flex: 1;
+    font-family: "Poiret One", sans-serif;
+    color: #2f2f2f;
+}
+
+.plant-name {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: "Tangerine", cursive;
+}
+
+.plant-description {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.plant-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #3d5c35;
+}
+
+.plant-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-back,
+.btn-cart {
+    padding: 0.6rem 1.4rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "Poiret One", sans-serif;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.btn-back {
+    background-color: #ccc;
+    color: #333;
+}
+
+.btn-back:hover {
+    background-color: #aaa;
+}
+
+.btn-cart {
+    background-color: #47754c;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-cart:hover {
+    background-color: #2d4d2c;
+}
+
+.details-loading {
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    color: #555;
+}

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+.admin-plants-container {
+    padding: 2rem;
+}
+
+.admin-title {
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-size: 3rem;
+    color: #131a14;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.admin-plant-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.btnAdd {
+    background-color: #323332;
+    color: #ddd;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnAdd:hover {
+    background-color: #4a4a4a;
+    color: #fff;
+}
+
+/* MODAL BUTTONS */
+.modal-button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.modal-button-group button {
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit */
+.modal-button-group button[type="submit"] {
+    background-color: #3b7d3b;
+    color: white;
+}
+
+.modal-button-group button[type="submit"]:hover {
+    background-color: #2e6532;
+}
+
+/* Cancel */
+.modal-button-group button[type="button"] {
+    background-color: #919191;
+    color: #333;
+}
+
+.modal-button-group button[type="button"]:hover {
+    background-color: #c0c0c0;
+}
+
+/* KARTICE BILJAKA */
+.admin-plant-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 460px;
+}
+
+.admin-plant-card:hover {
+    transform: translateY(-10px);
+}
+
+.admin-plant-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.admin-plant-card h4 {
+    font-family: "Poiret One", sans-serif;
+    font-size: 1.3rem;
+    color: #2e5033;
+    margin-top: 1rem;
+}
+
+.admin-plant-description {
+    font-family: "Poiret One", sans-serif;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 3.2rem;
+}
+
+.admin-plant-price {
+    font-family: "Poiret One", sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.admin-button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    padding-top: 1rem;
+}

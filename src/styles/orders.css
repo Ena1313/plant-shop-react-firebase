@@ -1,0 +1,75 @@
+.orders-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.orders-title {
+    font-family: "Poiret One", sans-serif;
+    font-size: 2.5rem;
+    color: #2e5033;
+    text-align: center;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+.order-card {
+    background-color: white;
+    border: 2px solid black;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.order-card:hover {
+    transform: translateY(-5px);
+}
+
+.order-number {
+    font-family: "Poiret One", sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #000;
+}
+
+.label {
+    font-weight: bold;
+    color: #222;
+    margin-right: 0.5rem;
+    font-family: "Poiret One", sans-serif;
+}
+
+.order-items {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.order-items li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.item-name {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
+.item-price {
+    font-weight: 500;
+    color: #555;
+}
+
+.orders-empty {
+    font-family: "Poiret One", sans-serif;
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 1.7rem;
+    color: #2e5033;
+    font-weight: bold;
+}
