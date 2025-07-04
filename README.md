@@ -27,13 +27,13 @@ Ova aplikacija je izrađena kao završni projekt za kolegij **Napredno web progr
 ## 📂 Struktura projekta
 
 src/
-├── Authentication/ # Firebase setup i auth
-├── Components/
-│ ├── Admin/ # Admin dashboard, narudžbe, upravljanje biljkama
-│ ├── User/ # PlantList, Cart, Orders, Profile
-│ └── Shared/ # Navbar, Footer itd.
-├── styles/ # CSS datoteke
-└── App.js # Routing i layout
+- Authentication/ # Firebase setup i auth
+- Components/
+- Admin/ # Admin dashboard, narudžbe, upravljanje biljkama
+- User/ # PlantList, Cart, Orders, Profile
+- Shared/ # Navbar, Footer itd.
+- styles/ # CSS datoteke
+- App.js # Routing i layout
 
 ## 📝 Napomena
 
